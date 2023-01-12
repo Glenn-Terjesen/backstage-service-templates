@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Service Catalog
+  name: ServiceCatalog
   description: test
   tags:
     - ServiceCatalog
 spec:
   type: service
   lifecycle: production
-  owner: Cloud & Infrastructure
+  owner: "Cloud & Infrastructure"
