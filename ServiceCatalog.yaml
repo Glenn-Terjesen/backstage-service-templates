@@ -1,4 +1,4 @@
---- # Groups
+#--- # Groups
 #apiVersion: backstage.io/v1alpha1
 #kind: Group
 #metadata:
@@ -13,9 +13,8 @@
   #parent: ops
   #children: [backstage, other]
   #members: [jdoe]
---- # Components
-
----
+#--- # Components
+#---
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
