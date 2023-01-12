@@ -8,7 +8,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: Cloud and Infrastructure
+  owner: Cloud_and_Infrastructure
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -20,7 +20,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: Cloud and Infrastructure
+  owner: Cloud_and_Infrastructure
   subcomponentOf: service-catalog
 ---
 apiVersion: backstage.io/v1alpha1
@@ -33,7 +33,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: Cloud and Infrastructure
+  owner: Cloud_and_Infrastructure
   subcomponentOf: service-catalog
   dependsOn: ["component:cloud-adoption-assessment"]
 ---
@@ -47,6 +47,6 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: Cloud&Infrastructure
+  owner: Cloud_and_Infrastructure
   subcomponentOf: service-catalog
 ---
