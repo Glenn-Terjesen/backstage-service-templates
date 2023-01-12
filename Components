@@ -1,0 +1,40 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cloud-strategy-service
+  description: test
+  tags:
+    - servicecatalog
+spec:
+  type: service
+  lifecycle: production
+  owner: cloud_and_infrastructure
+  subcomponentOf: service-catalog
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cloud-platform-service
+  description: test
+  tags:
+    - servicecatalog
+spec:
+  type: service
+  lifecycle: production
+  owner: cloud_and_infrastructure
+  subcomponentOf: service-catalog
+  dependsOn: ["component:cloud-adoption-assessment"]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cloud-adoption-assessment
+  description: test
+  tags:
+    - servicecatalog
+spec:
+  type: service
+  lifecycle: production
+  owner: cloud_and_infrastructure
+  subcomponentOf: service-catalog
+---
