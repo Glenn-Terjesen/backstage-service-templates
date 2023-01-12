@@ -7,17 +7,17 @@ metadata:
 spec:
   type: business-unit
   profile:
-    displayName: Cloud & Infrastructure
+    displayName: Cloud Infrastructure
     email: infrastructure@example.com
     #picture: https://github.com/Glenn-Terjesen/backstage-service-templates/raw/main/rm373-006.jpg
-  parent: ops
-  children: [backstage, other]
+  #parent: ops
+  #children: [backstage, other]
   #members: [jdoe]
 --- # Components
 
 ---
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Domain
 metadata:
   name: service-catalog
   description: test
@@ -28,7 +28,7 @@ spec:
   profile:
     displayName: Service Catalog
   lifecycle: production
-  owner: cloud_and_infrastructure
+  owner: cloud_and_infrastructure 
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
