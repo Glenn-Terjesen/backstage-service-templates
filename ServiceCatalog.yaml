@@ -9,3 +9,17 @@ spec:
   type: service
   lifecycle: production
   owner: Cloud&Infrastructure
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cloud-strategy-service
+  description: test
+  tags:
+    - servicecatalog
+spec:
+  type: service
+  lifecycle: production
+  owner: Cloud&Infrastructure
+  dependsOn: service-catalog
+---
