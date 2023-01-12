@@ -21,7 +21,7 @@ spec:
   type: service
   lifecycle: production
   owner: Cloud&Infrastructure
-  subcomponentOf: ["component:service-catalog"]
+  subcomponentOf: service-catalog
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -34,7 +34,7 @@ spec:
   type: service
   lifecycle: production
   owner: Cloud&Infrastructure
-  subcomponentOf: ["component:service-catalog"]
+  subcomponentOf: service-catalog
   dependsOn: ["component:cloud-adoption-assessment"]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -48,5 +48,5 @@ spec:
   type: service
   lifecycle: production
   owner: Cloud&Infrastructure
-  subcomponentOf: ["component:service-catalog"]
+  subcomponentOf: service-catalog
 ---
