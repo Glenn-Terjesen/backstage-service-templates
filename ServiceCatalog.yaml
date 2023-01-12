@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Service-Catalog
+  name: service-catalog
   description: test
   tags:
-    - ServiceCatalog
+    - servicecatalog
 spec:
   type: service
   lifecycle: production
