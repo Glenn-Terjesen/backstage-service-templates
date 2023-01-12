@@ -1,14 +1,14 @@
 --- # Groups
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: cloud_and_infrastructure
-  description: The Cloud and Infrastrucure business unit
-spec:
-  type: business-unit
-  profile:
-    displayName: Cloud Infrastructure
-    email: infrastructure@example.com
+#apiVersion: backstage.io/v1alpha1
+#kind: Group
+#metadata:
+#  name: cloud_and_infrastructure
+#  description: The Cloud and Infrastrucure business unit
+#spec:
+#  type: business-unit
+#  profile:
+#    displayName: Cloud Infrastructure
+#    email: infrastructure@example.com
     #picture: https://github.com/Glenn-Terjesen/backstage-service-templates/raw/main/rm373-006.jpg
   #parent: ops
   #children: [backstage, other]
