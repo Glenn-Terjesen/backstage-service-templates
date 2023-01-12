@@ -9,7 +9,7 @@ spec:
   profile:
     displayName: Cloud & Infrastructure
     email: infrastructure@example.com
-    picture: https://github.com/Glenn-Terjesen/backstage-service-templates/raw/main/rm373-006.jpg
+    #picture: https://github.com/Glenn-Terjesen/backstage-service-templates/raw/main/rm373-006.jpg
   parent: ops
   children: [backstage, other]
   #members: [jdoe]
